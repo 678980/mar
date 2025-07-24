@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+    <h1>🍕 Pizza Order Form</h1>
+    <form>
+        <fieldset>
+            <legend>Your Info</legend>
+            <label>Name:</label>
+            
+            <input type="text" placeholder="Your full name" required>
+            <label>Email</label>
+            <input type="email" placeholder="You@example.com"required>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza Details</legend>
+            <label>Pizza Size:</label>
+            <select>
+            <option>--Select Size-- </option>
+            <option>small(8")</option>
+            <option>Medium(12")</option>
+            <option>Large(16")</option>
+        </select>
+        <label class="toppings">Toppings:</label>
+        <input type="checkbox" class="inputone"> Pepperoni<br>
+        <input type="checkbox" class="inputone">Mushrooms<br>
+        <input type="checkbox" class="inputone">Olives<br>
+        <input type="checkbox" class="inputone">Onions<br>
+        <label>Delivery Date:</label>
+        <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <label>Anything else?</label>
+            <textarea placeholder="let us know about allergies,delivery,notes,etc."style="width: 100%; height: 200px; resize:vertical"></textarea>
+        </fieldset>
+<button>Order Now</button>
+    </form>
+    
+</body>
+</html>
